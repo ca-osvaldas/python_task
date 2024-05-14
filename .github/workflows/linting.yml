@@ -24,3 +24,7 @@ jobs:
         run: |
           flake8 .
         continue-on-error: true
+
+      - name: Run Tests
+        run: |
+          pytest
